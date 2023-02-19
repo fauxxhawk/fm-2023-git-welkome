@@ -1,0 +1,12 @@
+.main{
+  text-align: center;
+  font-style: italic;
+  font-size: initial;
+  color: initial;
+  font-weight: bolder;
+}
+body{
+  background-color:#bbbbbb;
+  font-size: 24px;
+  color: #444444;
+}
