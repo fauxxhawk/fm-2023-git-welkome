@@ -1,0 +1,28 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(./img/beach.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 95vh;
+  background-position: bottom;
+}
+
+.web{
+  color: brown;
+  padding: 100px 450px;
+}
+
+.first{
+  padding: 300px 20px;
+}
+
+header{
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.lorem{
+}
