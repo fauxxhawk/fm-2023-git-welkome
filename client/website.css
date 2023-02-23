@@ -6,7 +6,7 @@ body{
   background-image: url(./img/beach.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 95vh;
+  height: 100vh;
   background-position: bottom;
 }
 
@@ -22,7 +22,26 @@ body{
 header{
   font-size: x-large;
   font-weight: bold;
+  text-align: center;
 }
 
-.lorem{
+.welkome{
+  font-weight: bold;
+  font-size: 50px;
+  margin-top: 200px;
+  margin-bottom: 10px;
+}
+
+p{
+  font-size: 70px;
+  margin-top: 50px;
+}
+
+button{
+  text-decoration: none;
+  padding: 10px 20px;
+  color: #926239;
+  border: #926239 2px solid;
+  border-radius: 10px;
+  margin: 100px 100px 100px 100px;
 }
