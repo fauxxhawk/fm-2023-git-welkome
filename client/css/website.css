@@ -1,0 +1,113 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url(./img/beach.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: bottom;
+}
+
+.web{
+  color: #926239;
+  padding: 100px 450px;
+  line-height: 50px;
+}
+
+.more{
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+header{
+  font-size: x-large;
+  font-weight: bold;
+  text-align: center;
+  height: 100vh;
+}
+
+.welcome{
+  font-weight: bold;
+  font-size: 50px;
+  margin-top: 200px;
+  margin-bottom: 10px;
+}
+
+.lorem{
+  font-size: 15px;
+  margin-top: 10px;
+  display: flex;
+  min-width: 100vh;
+  font-weight: normal;
+  margin-left: -50px;
+}
+
+button{
+  padding: 10px 20px;
+  border: #926239 2px solid;
+  border-radius: 10px;
+  margin: 100px 100px 100px 100px;
+  color: #926239;
+}
+
+section{
+  display: block;
+}
+
+
+#section1{
+  background: #926239;
+  color: whitesmoke;
+  padding: 25px;
+  line-height: 1.6;
+  text-align: center;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#section2{
+  background: whitesmoke;
+  color: #926239;
+  padding: 25px;
+  line-height: 1.6;
+  text-align: center;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#section3{
+  display: flex;
+}
+
+.bloc1{
+  background: #926239;
+  color: whitesmoke;
+  line-height: 1.6;
+  text-align: center;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  padding: 25px;
+}
+
+.bloc2{
+  background: whitesmoke;
+  color: #926239;
+  line-height: 1.6;
+  text-align: center;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  padding: 25px;
+}
+
+.bloc3{
+  background: #926239;
+  color: whitesmoke;
+  line-height: 1.6;
+  text-align: center;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  padding: 25px;
+}
+
+.button:hover{
+background-color:#926239;
+color: whitesmoke;
+}

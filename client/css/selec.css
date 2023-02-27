@@ -1,0 +1,33 @@
+.all div{
+  height: 100px;
+  width: 100px;
+  border: 2px solid gray;
+  display: inline-block;
+}
+
+.all div:first-child{
+  background-color: red;
+}
+
+.all div:nth-child(2n){
+  background-color: green;
+}
+.all div:nth-child(3n){
+  background-color: blue;
+}
+
+.all div:nth-child(5n){
+  background-color: red;
+}
+
+.all div:nth-child(6n){
+  background-color: blue;
+}
+
+.all div:nth-child(7n){
+  background-color: red;
+}
+
+.all div:last-child{
+  background-color: green;
+}
