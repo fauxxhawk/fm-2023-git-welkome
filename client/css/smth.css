@@ -1,0 +1,62 @@
+.container{
+  background-color: lime;
+  height: 800px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.wrapper{
+  background-color: dodgerblue;
+  width: 80%;
+  height: 800px;
+}
+
+.inner{
+  text-align: center;
+  width: 80px;
+  height: 80px;
+  background-color: forestgreen;
+  border: 1px solid black;
+}
+
+.one{
+position: fixed;
+top: 20px;
+left: 60px;
+}
+
+.two{
+  position: fixed;
+  top: 20px;
+  right: 60px;
+}
+
+.three{
+  position: fixed;
+  bottom: 20px;
+  left: 60px;
+}
+
+.four{
+  position: fixed;
+  bottom: 20px;
+  right: 60px;
+}
+
+.five{
+  position: relative;
+  height: 200px;
+  width: 200px;
+  background-color:blueviolet;
+  left: 50%;
+  top: 50%;
+}
+
+.six{
+  position:absolute;
+  height: 50px;
+  width: 50px;
+  background-color:orangered;
+left: 50%;
+  top: 50%;
+}
