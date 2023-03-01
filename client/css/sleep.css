@@ -1,0 +1,89 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+}
+
+.nav-list{
+  font-size: 0;
+  background-color: orangered;
+  font-family: sans-serif;
+}
+
+.nav-list li{
+  list-style-type: none;
+  font-size: 16px;
+}
+
+.list-item{
+  display: inline-block;
+  padding: 10px;
+  position: relative;
+  background-color: orangered;
+  }
+
+
+.link{
+  display:inline-block;
+  text-decoration: none;
+  width: 100%;
+  color: blanchedalmond;
+}
+
+.sub-nav-list{
+  display: none;
+  background-color: orangered;
+    padding: 0;
+    position:absolute;
+    top: 38px;
+    left: 2px;
+}
+
+.sub-list-item{
+  background-color: orangered;
+  padding: 10px;
+  width: 105px;
+}
+
+.my-try{
+  position: absolute;
+  display: none;
+  left: 65px;
+  bottom: 10px;
+}
+
+.miny-try{
+  background-color: orangered;
+  padding: 10px;
+}
+
+.my-try2{
+display: none;
+position: absolute;
+left: 100px;
+top: 76px;
+}
+
+.miny-try2{
+background-color: orangered;
+padding: 10px;
+}
+
+.other:hover .my-try2{
+  display: block;
+}
+
+.tutorials:hover .my-try{
+  display:block;
+  top: 77px;
+}
+
+.nav-list li:hover{
+  background-color: #941b00;
+}
+
+.list-item:hover .sub-nav-list {
+  display: block;
+}

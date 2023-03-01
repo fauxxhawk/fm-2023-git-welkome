@@ -1,0 +1,15 @@
+h1::before{
+  content: "$";
+  color: darkseagreen;
+}
+
+h1::after{
+  content: "$";
+  color: darkseagreen;
+}
+
+h1{
+  background-color: blueviolet;
+  display: inline-block;
+  color: palevioletred;
+}
