@@ -1,0 +1,52 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  list-style-type: none;
+}
+
+.list{
+display: inline;
+padding: 10px;
+position: relative;
+z-index: 3;
+width: 100%;
+}
+
+.link{
+display: inline-block;
+padding: 10px;
+background-color: lightpink;
+color: palevioletred;
+position: relative;
+}
+
+.sub-list{
+  z-index: -1;
+position: absolute;
+top: -550%;
+transition: 1s all ease;
+background-color: palevioletred;
+color: lightpink;
+right: 0%;
+}
+
+.scroll{
+list-style-type: none;
+padding: 10px;
+}
+
+
+.link2:hover .sub-list{
+  top: 100%;
+}
