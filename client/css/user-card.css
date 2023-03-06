@@ -1,0 +1,110 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: lightskyblue;
+  width: 100%;
+  height: 100%;
+
+}
+
+.card-all{
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+
+}
+
+.card{
+display: flex;
+min-width: 330px;
+max-width: 300px;
+min-height: 500px;
+width: 100%;
+padding: 20px;
+border: 2px grey solid;
+border-radius: 5px;
+font-family: sans-serif;
+background-color: white;
+box-shadow: 2px 2px 7px #434040;
+line-height: 1.5;
+justify-content: center;
+align-items: center;
+}
+
+
+.photo{
+border-radius: 50%;
+max-width: 150px;
+margin-bottom: 30px;
+text-align: center;
+}
+
+
+.user-photo{
+text-align: center;
+}
+
+.head{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 27px;
+  color: rgb(203, 95, 95);
+}
+
+.head2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 20px;
+}
+
+.info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: darkslategray;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.mini-icons{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: flex-start;
+margin-top: 40px;
+
+}
+
+/* display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: flex-start;
+margin-top: 40px; */
+
+.one{
+
+}
+
+.two{
+}
+
+.three{
+
+}
+
+.four{
+padding-top: 4px;
+}
+
+.all-mini-photo{
+
+}

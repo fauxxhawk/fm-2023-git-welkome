@@ -1,0 +1,43 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+}
+
+.all{
+text-align: center;
+position: relative;
+}
+
+.first{
+background-color: blueviolet;
+color: navy;
+width: 200px;
+height: 300px;
+border-radius: 5px;
+position: relative;
+}
+
+.second{
+  background-color: navy;
+  color: blueviolet;
+  width: 200px;
+height: 300px;
+border-radius: 5px;
+position: absolute;
+top: 0;
+left: 100%;
+}
+
+.all:hover .second{
+  top: 0;
+  left: 0;
+  transform: rotate(360deg);
+}
+
+.all::before{
+  content: '';
+  transform: rotate(360deg);
+}
