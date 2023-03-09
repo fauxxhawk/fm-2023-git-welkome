@@ -1,0 +1,43 @@
+
+@font-face{
+  font-family: 'Creepster';
+src: url(../font/Orbitron-VariableFont_wght.ttf); 
+format: ('truetype');
+}
+
+*{
+  box-sizing: border-box;
+}
+
+:root{
+font-size: 18px;
+}
+
+body{
+  margin: 0;
+}
+
+nav{
+  font-size: 20px;
+}
+
+nav ul li{
+  list-style-type: none;
+  font-family: 'Creepster';
+}
+
+nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+nav a{
+  text-decoration: none;
+}
+
+section{
+  display: flex;
+  flex-direction: row;
+
+}

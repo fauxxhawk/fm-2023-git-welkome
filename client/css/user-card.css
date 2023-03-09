@@ -16,7 +16,6 @@ body{
 .card-all{
   display: flex;
   justify-content: center;
-  /* align-items: center; */
   flex-direction: column;
 
 }
@@ -84,27 +83,6 @@ margin-top: 40px;
 
 }
 
-/* display: flex;
-flex-direction: row;
-justify-content: space-around;
-align-items: flex-start;
-margin-top: 40px; */
-
-.one{
-
-}
-
-.two{
-}
-
-.three{
-
-}
-
 .four{
 padding-top: 4px;
-}
-
-.all-mini-photo{
-
 }

@@ -1,0 +1,49 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-repeat: no-repeat;
+background-size:cover;
+  margin: 0;
+  background-image: url(https://www.rabota.kharkov.ua/images/db/rab.stol.jpg) ;
+  
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 1%;
+  max-width: 26%;
+  font-family: sans-serif;
+  backdrop-filter: 'glassmorphism';
+  background-color: hsla(321, 33%, 37%, 0.437);
+  opacity: 0.9;
+  margin: 5% auto;
+  /* margin: 5% auto; */
+}
+
+form input{
+  margin: 2% 0 8px;
+  height: 2em;
+}
+
+form input[type="radio"]{
+  margin: 0;
+  height: 0.9em;
+}
+form label, button, span{
+  margin-top: 1.4%;
+  font-size: 0.8em;
+  font-weight: 700;
+}
+
+input::placeholder{
+  font-style: italic;
+}
+
+input:focus{
+  background-color: lightpink;
+}

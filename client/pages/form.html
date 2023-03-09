@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../css/form.css">
+</head>
+<body>
+  <form>
+    <label for='firstname'>Напишіть своє імя</label>
+  <input type="text" name="name" id="firstname" placeholder="Vera" autofocus>
+</label>
+<label for="secondtname"> Напишіть своє призвіще</label>
+  <input type="text" name="secondtname" placeholder="Shevchenko">
+</label>
+<label for="emailfor"> Напишіть свій імейл</label>
+  <input type="email" name="email" id="emailfor" placeholder="Lalala@gmail.com">
+</label>
+<label for="birhtdayfor"> Напишіть свою дату народження</label>
+  <input type="date" name="birhtday" id="birhtdayfor">
+</label>
+<span>Оберіть свій гендер</span>
+
+  <label><input type="radio" name="gender" value="male">Male</label>
+  <label><input type="radio" name="gender" value="female">Female</label>
+  <label><input type="radio" name="gender" value="nonBinary">NonBinary</label>
+
+<label for="sityfor">Виберіть своє місто</label>
+  <input type="text" name="city" list="city" id="sityfor">
+  <datalist id="city">
+    <option >Zaporizhzhia</option>
+    <option>Dnepr</option>
+    <option>Kiyv</option>
+  </datalist>
+<button>Send</button>
+</form>
+</body>
+</html>

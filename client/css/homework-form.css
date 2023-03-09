@@ -1,0 +1,79 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-image: url(https://www.rabota.kharkov.ua/images/db/rab.stol.jpg) ;
+}
+
+article{
+  display: flex;
+flex-direction: column;
+border-right: 25px darkblue solid;
+box-shadow: 2px 2px 7px #434040;
+border-radius: 10px;
+max-width: 32%;
+position: relative;
+padding: 2%;
+font-family: sans-serif;
+margin: 5% ;
+backdrop-filter: 'glassmorphism';
+margin: 5% auto;
+}
+
+form input, button, a{
+  margin: 2% 0 8px;
+  height: 2.5em;
+}
+
+
+.all{
+  color:darkblue;
+}
+
+.head{
+color: darkblue;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+a{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  top: 207px;
+  left: 295px;
+  text-decoration: none;
+}
+
+input[type='checkbox']{
+  position: absolute;
+  bottom: 74px;
+  left: 145px;
+}
+
+input[type='text'], [type='password']{
+  background-color: lightgrey;
+  border-radius: 5px;
+  border-style: none;
+}
+
+.second{
+  font-size:small;
+  font-weight:bold;
+}
+
+button{
+  border: none;
+  border-radius: 5px;
+  color: aliceblue;
+  background-color: darkblue;
+  margin-top: 20px;
+}
